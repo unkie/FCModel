@@ -2,10 +2,10 @@ Pod::Spec.new do |s|
   s.name = 'FCModel'
   s.version = '0.9.0'
   s.summary = 'An alternative to Core Data for people who like having direct SQL access.'
-  s.homepage = 'https://github.com/marcoarment/FCModel'
+  s.homepage = 'https://github.com/unkie/FCModel'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author = { 'Marco Arment' => 'arment@marco.org' }
-  s.source = { :git => 'https://github.com/marcoarment/FCModel.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/unkie/FCModel.git', :tag => s.version.to_s }
   s.source_files  = 'FCModel/*.{h,m}'
   s.library = 'sqlite3'
   s.requires_arc = true
